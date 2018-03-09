@@ -1,0 +1,1599 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image: url("../images/dust_scratches.png");
+    
+}
+
+
+.topWhite {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+}
+
+
+.tophead {
+    position: relative;
+    width: 960px;
+    height: 89px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+
+
+}
+
+#yourName {
+    position: relative;
+    float: left;
+    text-shadow: 1px 1px #666;
+    width: 250px;
+    height: 90px;
+    padding: 30px;
+    background-color: #63A8A4;
+    font-size: 32px;
+    font-weight: bold; 
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: -1px;
+    border-radius: 15px 15px 0px 0px;
+    background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
+    box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
+
+}
+nav {
+    position: relative;
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited { 
+    color: #ccc;
+}
+
+ul li {
+    display: inline;
+}
+
+#liabout, #liportfolio, #licontact {
+    color: #777;
+    padding: 10px;
+}
+
+#liportfolio {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #eee;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #eee;
+}
+
+.wrapper {
+    position: relative;
+    clear: both;
+    width: 960px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    overflow: auto;
+    overflow: visible;
+    
+}
+
+aside{
+    font-weight: bold;
+    float: right;
+    width: 270px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
+    
+
+}
+
+.socialLink {
+    margin: 35px;
+    width: 28%;
+    margin: 3px;
+    margin-top: 14px;
+}
+
+#h2connect { 
+    font-size: 22px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+
+}
+
+section{
+    float: left;
+    width: 650px; 
+    background-color: white;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #aaaaaa;
+}
+
+img {
+    border-radius: 8px;
+}
+
+
+.aboutMe {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding:2px;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold; 
+    
+}
+
+.paboutme {
+    float: right;
+    margin-top: 20px;
+}
+
+#bio-image {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+}
+
+.aboutMe, .row {
+    border-width: 1px ;
+    background-color: white;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    clear: both;
+    background-color: #666;
+    padding: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background: linear-gradient(to bottom right, #666, #333);
+    margin-top: 1000px;
+
+}
+
+.indexFooter {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 725px;
+}
+
+.contactFooter {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    clear: both;
+    background-color: #666;
+    padding: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background: linear-gradient(to bottom right, #666, #333);
+    margin-top: 800px;
+}
+
+
+/* Contact Me */
+input {
+    width: 100%;
+    padding: 10px 10px;
+    margin-left: 8px 0;
+    margin-top: -20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#message {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+    overflow: auto;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    margin-top: 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+img:hover, .socialLink:hover, #message:hover, input:hover{
+    box-shadow: 1.5px 1.5px 1.5px #888999;
+    
+}
+
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
+    opacity: 0.5;
+
+} 
+
+
+input:focus {
+    box-shadow: 0.5px 0.5px 0.5px #666;
+
+}
+
+/* Portfolio */
+
+.h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
+    border-radius: 15px;
+}
+
+.h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
+    box-shadow: 1.5px 1.5px 1.5px #888999;
+    
+}
+
+#image1, #image3, #image4, #image5, #image6 {
+
+    width: 275px;
+    float: left;
+    margin: 8px;
+    
+}
+
+#image2, #image4, #image6 {
+    width: 275px; 
+    float: right;
+    margin: 8px;
+
+}
+
+.h3container1, .h3container3, .h3container5 {
+    margin-top: 25px;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+  
+
+}
+
+
+
+.h3container2, .h3container4, .h3container6 {
+    margin-top: 25px;
+    float: right;
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+
+}
+
+
+#image1overlay, #image2overlay, #image4overlay, #image5overlay, #image6overlay {
+    margin: 0 auto 0 auto;
+    margin-left: 8px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;;
+    font-size: 22px;
+    width: 275px;
+    height: 25%;
+    position: absolute;
+    bottom: 20px;
+}
+
+#image3overlay {
+    margin: 0 auto 0 auto;
+    margin-left: 8px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;;
+    font-size: 22px;
+    width: 275px;
+    height: 25%;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+
+h3 {
+    margin: auto;
+    margin-top: 10px;
+    font-weight: normal;
+    color: white;
+}
+
+/*h3:hover{
+    font-weight: bold;
+}
+*/
+
+@media screen and (max-width: 980px) {
+    
+body{
+    background-image: url("../images/dust_scratches.png");
+    
+}
+
+
+.topWhite {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+}
+
+
+.tophead {
+    position: relative;
+    width: 728px;
+    height: 89px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+
+
+}
+
+#yourName {
+    position: relative;
+    float: left;
+    text-shadow: 1px 1px #666;
+    width: 250px;
+    height: 90px;
+    padding: 30px;
+    background-color: #63A8A4;
+    font-size: 32px;
+    font-weight: bold; 
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: -1px;
+    border-radius: 15px 15px 0px 0px;
+    background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
+    box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
+
+}
+nav {
+    position: relative;
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited { 
+    color: #ccc;
+}
+
+ul li {
+    display: inline;
+}
+
+#liabout, #liportfolio, #licontact {
+    color: #777;
+    padding: 10px;
+}
+
+#liportfolio {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #eee;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #eee;
+}
+
+.wrapper {
+    position: relative;
+    clear: both;
+    width: 728px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    overflow: auto;
+    overflow: visible;
+    
+}
+
+aside{
+    font-weight: bold;
+    float: right;
+    width: 270px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
+    
+
+}
+
+.socialLink {
+    margin: 35px;
+    width: 28%;
+    margin: 3px;
+    margin-top: 14px;
+}
+
+#h2connect { 
+    font-size: 22px;
+    padding-top: 4px;
+    margin-bottom: 10px;
+
+}
+
+section{
+    float: left;
+    width: 420px; 
+    background-color: white;
+    padding: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #aaaaaa;
+}
+
+img {
+    border-radius: 8px;
+}
+
+
+.aboutMe {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 5px;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold; 
+    
+}
+
+.paboutme {
+    float: right;
+    margin-top: 20px;
+    padding: 15px ;
+}
+
+#bio-image {
+  float: left;
+  width: 100%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+}
+
+.aboutMe, .row {
+    border-width: 1px ;
+    background-color: white;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    clear: both;
+    background-color: #666;
+    padding: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background: linear-gradient(to bottom right, #666, #333);
+    margin-top: 1000px;
+
+}
+
+.indexFooter {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 725px;
+}
+
+.contactFooter {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    clear: both;
+    background-color: #666;
+    padding: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background: linear-gradient(to bottom right, #666, #333);
+    margin-top: 800px;
+}
+
+
+
+/* Portfolio */
+
+.h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
+    border-radius: 15px;
+}
+
+.h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
+    box-shadow: 1.5px 1.5px 1.5px #888999;
+    
+}
+
+#image1, #image3, #image4, #image5, #image6 {
+
+    width: 360px;
+    float: left;
+    margin: 8px;
+    
+}
+
+#image2, #image4, #image6 {
+    width: 360px; 
+    float: left;
+    margin: 8px;
+
+}
+
+.h3container1, .h3container3, .h3container5 {
+    margin-top: 25px;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+  
+
+}
+
+
+
+.h3container2, .h3container4, .h3container6 {
+    margin-top: 25px;
+    float: right;
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+
+}
+
+
+#image1overlay, #image2overlay, #image4overlay, #image5overlay, #image6overlay {
+    margin: 0 auto 0 auto;
+    margin-left: 8px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;;
+    font-size: 32px;
+    width: 360px;
+    height: 25%;
+    position: absolute;
+    bottom: 20px;
+}
+
+#image3overlay {
+    margin: 0 auto 0 auto;
+    margin-left: 8px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;;
+    font-size: 32px;
+    width: 360px;
+    height: 25%;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+
+h3 {
+    margin: auto;
+    margin-top: 18px;
+    font-weight: normal;
+    color: white;
+}
+
+}
+
+@media screen and (max-width: 768px) {
+    
+.topWhite {
+    background-color: white;
+    width: 100%;
+    position: relative;
+    overflow: auto;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-bottom-width: 1.5px;
+    border-bottom-color: #ccc;
+    border-bottom-style: solid;
+}
+
+
+.tophead {
+    position: relative;
+    width: 728px;
+    height: 89px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+
+
+}
+
+#yourName {
+    position: relative;
+    float: left;
+    text-shadow: 1px 1px #666;
+    width: 250px;
+    height: 90px;
+    padding: 30px;
+    background-color: #63A8A4;
+    font-size: 32px;
+    font-weight: bold; 
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: -1px;
+    border-radius: 15px 15px 0px 0px;
+    background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
+    box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
+
+}
+nav {
+    position: relative;
+    float: right;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited { 
+    color: #ccc;
+}
+
+ul li {
+    display: inline;
+}
+
+#liabout, #liportfolio, #licontact {
+    color: #777;
+    padding: 10px;
+}
+
+#liportfolio {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: #eee;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #eee;
+}
+
+.wrapper {
+    position: relative;
+    clear: both;
+    width: 728px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    overflow: auto;
+    overflow: visible;
+    
+}
+section{
+    float: left;
+    width: 728px; 
+    background-color: white;
+    padding: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    letter-spacing: 1px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2.5px #aaaaaa;
+}
+
+
+aside{
+    font-weight: bold;
+    float: none;
+    clear: both;
+    width: 728px;
+    height: 180px;
+    background-color: white;
+    text-align: center;
+    overflow: auto;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
+    
+
+}
+
+.socialLink {
+    float: left;
+    margin: 35px;
+    width: 64px;
+    margin: 3px;
+    margin-top: 18px;
+}
+
+#h2connect { 
+    float: left;
+    font-size: 22px;
+    padding-top: 4px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+}
+hr {
+    clear: both;
+}
+
+
+img {
+    border-radius: 8px;
+}
+
+
+.aboutMe {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding:2px;
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+    font-size: 32px;
+    font-weight: bold; 
+    
+}
+
+.paboutme {
+    float: right;
+    margin-top: 20px;
+}
+
+#bio-image {
+  float: left;
+  width: 335px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, serif;
+    color: #4aaaa5;
+}
+
+.aboutMe, .row {
+    border-width: 1px ;
+    background-color: white;
+}
+
+
+footer {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    clear: both;
+    background-color: #666;
+    padding: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background: linear-gradient(to bottom right, #666, #333);
+    margin-top: 1000px;
+
+}
+
+.indexFooter {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 725px;
+}
+
+.contactFooter {
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #eee;
+    clear: both;
+    background-color: #666;
+    padding: 50px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: #4aaaa5;
+    background: linear-gradient(to bottom right, #666, #333);
+    margin-top: 800px;
+}
+
+
+/* Contact Me */
+input {
+    width: 100%;
+    padding: 10px 10px;
+    margin-left: 8px 0;
+    margin-top: -20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#message {
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+    overflow: auto;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 10px;
+    margin: 8px 0;
+    margin-top: 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+img:hover, .socialLink:hover, #message:hover, input:hover{
+    box-shadow: 1.5px 1.5px 1.5px #888999;
+    
+}
+
+
+#image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
+    opacity: 0.5;
+
+} 
+
+
+input:focus {
+    box-shadow: 0.5px 0.5px 0.5px #666;
+
+}
+
+/* Portfolio */
+
+.h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
+    border-radius: 15px;
+}
+
+.h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
+    box-shadow: 1.5px 1.5px 1.5px #888999;
+    
+}
+
+#image1, #image3, #image4, #image5, #image6 {
+
+    width: 315px;
+    float: left;
+    margin: 8px;
+    
+}
+
+#image2, #image4, #image6 {
+    width: 315px; 
+    float: right;
+    margin: 8px;
+
+}
+
+.h3container1, .h3container3, .h3container5 {
+    margin-top: 25px;
+    float: left;
+    position: relative;
+    text-align: center;
+    color: white;
+  
+
+}
+
+
+
+.h3container2, .h3container4, .h3container6 {
+    margin-top: 25px;
+    float: right;
+    position: relative;
+    text-align: center;
+    color: white;
+   
+
+
+}
+
+
+#image1overlay, #image2overlay, #image4overlay, #image5overlay, #image6overlay {
+    margin: 0 auto 0 auto;
+    margin-left: 8px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;;
+    font-size: 22px;
+    width: 315px;
+    height: 25%;
+    position: absolute;
+    bottom: 20px;
+}
+
+#image3overlay {
+    margin: 0 auto 0 auto;
+    margin-left: 8px;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;;
+    font-size: 22px;
+    width: 315px;
+    height: 25%;
+    position: absolute;
+    bottom: 20px;
+    
+}
+
+
+h3 {
+    margin: auto;
+    margin-top: 10px;
+    font-weight: normal;
+    color: white;
+}
+
+/*h3:hover{
+    font-weight: bold;
+}
+*/
+}
+  
+@media screen and (max-width: 640px) {
+    .topWhite, .topHead, header {
+        position: static;
+    }
+    
+
+    .topWhite {
+        background-color: white;
+        width: 100%;
+      
+        overflow: auto;
+        margin: 0 auto;
+        padding-top: 20px;
+        border-bottom-width: 1.5px;
+        border-bottom-color: #ccc;
+        border-bottom-style: solid;
+    }
+    
+    
+    .tophead {
+    
+        width: 640px;
+        height: 89px;
+        margin: 0 auto 0 auto;
+        background-color: white;
+    
+    
+    }
+    
+
+    #yourName {
+        
+        float: left;
+        text-shadow: 1px 1px #666;
+        width: 100%;
+        height: 100px;
+        padding: 35px;
+        background-color: #63A8A4;
+        font-size: 36px;
+        font-weight: bold; 
+        color: #fff;
+        text-align: center;
+        letter-spacing: 1px;
+        margin: -1px;
+        margin-top: -25px;
+        border-radius: 0px 0px 0px 0px;
+        background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
+        box-shadow: 0px 0px 0px #aaaaaa;
+    
+    }
+    nav {
+        width: 100%;
+        clear: both;
+        height: 65px;
+        
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+        letter-spacing: 1px;
+        margin-top: 0px;
+    
+        
+    }
+    
+    a:hover{
+        font-weight: bold;
+    }
+    
+    a:link {
+        color: #777777;
+        text-decoration: none;
+    }
+    
+    a:visited { 
+        color: #ccc;
+    }
+    
+    ul li {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 15px;
+        
+
+        
+    }
+
+    ul {
+        width: 100%;
+    
+    }
+    
+    #liabout, #liportfolio, #licontact {
+        color: #777;
+        
+        
+    }
+
+    #liabout {
+     width: 224px;
+     float:left;
+     text-align: center;
+    }
+    
+    #liportfolio {
+        width: 198px;
+        float:left;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: #eee;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-right-color: #eee;
+        text-align: center;
+        
+    }
+
+    #licontact {
+        width: 220px;
+        float:right;
+        margin-right: -2px;
+        text-align: center;
+    }
+    
+    .wrapper {
+        position: relative;
+        clear: both;
+        width: 640px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20%;
+        overflow: auto;
+        overflow: visible;
+        
+    }
+    
+    aside{
+        font-weight: bold;
+        float: none;
+        margin-left: 20px;
+        width: 600px;
+        height: 180px;
+        background-color: white;
+        text-align: center;
+        border-style: solid;
+        border-color: #ddd;
+        border-width: 1px;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 1.5px 1.5px 0.75px #aaaaaa;
+        
+    
+    }
+    
+    .socialLink {
+        margin: 35px;
+        width: 64px;
+        margin: 3px;
+        margin-top: 14px;
+    }
+    
+    #h2connect { 
+        font-size: 22px;
+        padding-top: 4px;
+        margin-bottom: 10px;
+    
+    }
+    
+    section{
+        float: left;
+        width: 600px; 
+        background-color: white;
+        padding: 20px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+        letter-spacing: 1px;
+        line-height: 32px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        border-style: solid;
+        border-color: #ddd;
+        border-width: 1px;
+        border-radius: 15px;
+        box-shadow: 1.5px 1.5px 1.5px #aaaaaa;
+    }
+    
+    img {
+        border-radius: 8px;
+    }
+    
+    
+    .aboutMe {
+        margin-top: 15px;
+        margin-bottom: 30px;
+        padding:2px;
+        font-family: 'Georgia', Times, serif;
+        color: #4aaaa5;
+        font-size: 32px;
+        font-weight: bold; 
+        
+    }
+    
+    .paboutme {
+        float: right;
+        margin-top: 20px;
+    }
+    
+    #bio-image {
+      float: left;
+      margin-right: 20px;
+      margin-bottom: 0px;
+    }
+    
+    h2 {
+        font-family: 'Georgia', Times, serif;
+        color: #4aaaa5;
+    }
+    
+    .aboutMe, .row {
+        border-width: 1px ;
+        background-color: white;
+    }
+    
+    
+    footer {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 1000px;
+    
+    }
+    
+    .indexFooter {
+            text-align: center;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 12px;
+            color: #eee;
+            clear: both;
+            background-color: #666;
+            padding: 50px;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            border-top-style: solid;
+            border-top-width: 10px;
+            border-top-color: #4aaaa5;
+            background: linear-gradient(to bottom right, #666, #333);
+            margin-top: 725px;
+    }
+    
+    .contactFooter {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 800px;
+    }
+    
+    
+    /* Contact Me */
+    input {
+        width: 100%;
+        padding: 10px 10px;
+        margin-left: 8px 0;
+        margin-top: -20px;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+    
+    #message {
+        width: 100%;
+        height: 250px;
+        padding: 10px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        resize: vertical;
+        overflow: auto;
+    }
+    
+    input[type=submit] {
+        width: 20%;
+        background-color: #4aaaa5;
+        color: white;
+        padding: 10px 10px;
+        margin: 8px 0;
+        margin-top: 0px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    img:hover, .socialLink:hover, #message:hover, input:hover{
+        box-shadow: 1.5px 1.5px 1.5px #888999;
+        
+    }
+    
+    
+    #image1:hover, #image2:hover, #image3:hover, #image4:hover, #image5:hover, #image6:hover {
+        opacity: 0.5;
+    
+    } 
+    
+    
+    input:focus {
+        box-shadow: 0.5px 0.5px 0.5px #666;
+    
+    }
+    
+    /* Portfolio */
+    
+    .h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
+        border-radius: 15px;
+    }
+    
+    .h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
+        box-shadow: 1.5px 1.5px 1.5px #888999;
+        
+    }
+    
+    #image1, #image3, #image4, #image5, #image6 {
+    
+        width: 540px;
+        float: left;
+        margin: 8px;
+        
+    }
+    
+    #image2, #image4, #image6 {
+        width: 540px; 
+        float: right;
+        margin: 8px;
+    
+    }
+    
+    .h3container1, .h3container3, .h3container5 {
+        margin-top: 25px;
+        float: left;
+        position: relative;
+        text-align: center;
+        color: white;
+      
+    
+    }
+    
+    
+    
+    .h3container2, .h3container4, .h3container6 {
+        margin-top: 25px;
+        float: right;
+        position: relative;
+        text-align: center;
+        color: white;
+       
+    
+    
+    }
+    
+    
+    #image1overlay, #image2overlay, #image4overlay, #image5overlay, #image6overlay {
+        margin: 0 auto 0 auto;
+        margin-left: 8px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, serif;;
+        font-size: 36px;
+        width: 540px;
+        height: 25%;
+        position: absolute;
+        bottom: 20px;
+    }
+    
+    #image3overlay {
+        margin: 0 auto 0 auto;
+        margin-left: 8px;
+        background-color: #4aaaa5;
+        font-family: 'Georgia', Times, serif;;
+        font-size: 36px;
+        width: 540px;
+        height: 25%;
+        position: absolute;
+        bottom: 20px;
+        
+    }
+    .h3container6 {
+        margin-bottom: 20px;
+    }
+    
+    
+    h3 {
+        margin: auto;
+        margin-top: 35px;
+        font-weight: normal;
+        color: white;
+    }
+    
+    footer {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 1600px;
+    
+    }
+    
+    .indexFooter {
+            text-align: center;
+            font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+            font-size: 12px;
+            color: #eee;
+            clear: both;
+            background-color: #666;
+            padding: 50px;
+            position: sticky;
+            bottom: 0;
+            width: 100%;
+            border-top-style: solid;
+            border-top-width: 10px;
+            border-top-color: #4aaaa5;
+            background: linear-gradient(to bottom right, #666, #333);
+            margin-top: 600px;
+    }
+    
+    .contactFooter {
+        text-align: center;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: #eee;
+        clear: both;
+        background-color: #666;
+        padding: 50px;
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+        border-top-style: solid;
+        border-top-width: 10px;
+        border-top-color: #4aaaa5;
+        background: linear-gradient(to bottom right, #666, #333);
+        margin-top: 600px;
+    }
+    
+    
+    
+}
+  
+
