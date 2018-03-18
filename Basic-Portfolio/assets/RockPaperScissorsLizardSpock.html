@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors!</title>
+</head>
+
+<body>
+
+    <script>
+        /*
+        User Makes a Choice, R - Rock, P - Paper - S - Scissor - Lizard - L - Spock - O
+        Browser chooses Rock or Paper or Scissors or Lizard or Spock.
+        Note the choice the browser makes.
+        Compare choice with logical OR operator and comparison operator.  Whether W, L or D
+        Display Result through Alerts log total score on Document
+        */
+
+        var choices = ["r", "p", "s", "l", "o"];
+        var wins = 0;
+        var losses = 0;
+        var draws = 0;
+
+        document.onkeyup = function () {
+            var humanChoice = String.fromCharCode(event.keyCode).toLowerCase();
+            console.log(humanChoice);
+
+            var browserChoice = choices[Math.floor(Math.random() * choices.length)];
+            console.log(browserChoice);
+
+            if (humanChoice == 'r' || humanChoice == 'p' || humanChoice == 's' || humanChoice == 'l' || humanChoice == 'o') {
+                if (humanChoice == 'r' && browserChoice == 'r') {
+                    draws++;
+                    alert("Rock!  Your opponent has also chosen rock.\n\nIt's a draw.\n\n");
+                    alert("Draws: " + draws);
+                }
+                if (humanChoice == 'p' && browserChoice == 'p') {
+                    draws++;
+                    alert("Paper!  Your opponent has also chosen paper.\n\nIt's a draw.\n\n");
+                    alert("Draws: " + draws);
+                }
+                if (humanChoice == 's' && browserChoice == 's') {
+                    draws++;
+                    alert("Scissors!  Your opponent has also chosen scissors.\n\nIt's a draw.\n\n");
+                    alert("Draws: " + draws);
+                }
+                
+                if (humanChoice == 'l' && browserChoice == 'l') {
+                    draws++;
+                    alert("Lizard!  Your opponent has also chosen lizard.\n\nIt's a draw.\n\n");
+                    alert("Draws: " + draws);
+                }
+                
+                if (humanChoice == 'o' && browserChoice == 'o') {
+                    draws++;
+                    alert("Spock!  Your opponent has also chosen Spock.\n\nIt's a draw.\n\n");
+                    alert("Draws: " + draws);
+                }
+
+
+                //End Draws
+                //Human Chooses Rock
+
+                if (humanChoice == 'r' && browserChoice == 's') {
+                    wins++;
+                    alert("Rock!  Your opponent chooses scissors.  Your rock has bashed their scissors.\n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+
+                if (humanChoice == 'r' && browserChoice == 'p') {
+                    losses++;
+                    alert("Rock!  Your opponent chooses paper.  Your rock has been covered by their paper.\n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+    
+                }
+                
+                if (humanChoice == 'r' && browserChoice == 'l') {
+                    wins++;
+                    alert("Rock!  Your opponent chooses lizard.  Your rock has crushed the poor lizard.\n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+    
+                }
+                
+                if (humanChoice == 'r' && browserChoice == 'o') {
+                    losses++;
+                    alert("Rock!  Your opponent chooses Spock.  Spock has vaporized your rock.\n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+    
+                }
+
+                //Human Chooses Paper
+
+                if (humanChoice == 'p' && browserChoice == 'r') {
+                    wins++;
+                    alert("Paper!  Your opponent chooses rock.  Your paper has covered their rock. \n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+
+                if (humanChoice == 'p' && browserChoice == 's') {
+                    losses++;
+                    alert("Paper!  Your opponent chooses scissors.  Your paper has been cut by their scissors.\n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+                
+                if (humanChoice == 'p' && browserChoice == 'l') {
+                    losses++;
+                    alert("Paper!  Your opponent chooses lizard.  Your paper has been eaten by the lizard.\n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+                
+                if (humanChoice == 'p' && browserChoice == 'l') {
+                    wins++;
+                    alert("Paper!  Your opponent chooses Spock.  Your paper has disproven Spock.\n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+                
+                //Human Chooses Scissors
+
+
+                if (humanChoice == 's' && browserChoice == 'p') {
+                    wins++;
+                    alert("Scissors!  Your opponent chooses paper.  Your scissors have cut their paper.\n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+
+                if (humanChoice == 's' && browserChoice == 'r') {
+                    losses++;
+                    alert("Scissors!  Your opponent chooses rock.  Your scissors have been bashed by their rock. \n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+
+                if (humanChoice == 's' && browserChoice == 'l') {
+                    wins++;
+                    alert("Scissors!  Your opponent chooses lizard.  Your scissors have decapitated the poor lizard. \n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+                
+                if (humanChoice == 's' && browserChoice == 'o') {
+                    losses++;
+                    alert("Scissors!  Your opponent chooses Spock.  Your scissors have been smashed by Spock.\n\nYou Lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+
+                //End Standard
+
+                //Begin Lizard Spock
+
+                //Human Chooses Lizard
+
+                if (humanChoice == 'l' && browserChoice == 'r') {
+                    losses++;
+                    alert("Lizard!  Your opponent chooses rock.  The lizard has been crushed by their rock. \n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+                
+                if (humanChoice == 'l' && browserChoice == 'p') {
+                    wins++;
+                    alert("Lizard!  Your opponent chooses paper.  The lizard has eaten their paper.\n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+
+                if (humanChoice == 'l' && browserChoice == 's') {
+                    losses++;
+                    alert("Lizard!  Your opponent chooses scissors.  The poor lizard has been decapitated by their scissors. \n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+
+                
+                if (humanChoice == 'l' && browserChoice == 'o') {
+                    wins++;
+                    alert("Lizard!  Your opponent chooses Spock.  The lizard has poisoned Spock.\n\nYou Win!\n\n");
+                    alert("Wins: " + wins);
+                }
+
+
+                //Human Chooses Spock
+                if (humanChoice == 'o' && browserChoice == 'r') {
+                    wins++;
+                    alert("Spock!  Your opponent chooses rock.  Spock has vaporized their rock. \n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+                
+                if (humanChoice == 'o' && browserChoice == 'p') {
+                    losses++;
+                    alert("Spock!  Your opponent chooses paper.  Spock has been disproved by their paper.\n\nYou lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+
+                if (humanChoice == 'o' && browserChoice == 's') {
+                    wins++;
+                    alert("Spock!  Your opponent chooses scissors.  Spock has smashed their scissors. \n\nYou win!\n\n");
+                    alert("Wins: " + wins);
+                }
+
+                
+                if (humanChoice == 'o' && browserChoice == 'l') {
+                    losses++;
+                    alert("Spock!  Your opponent chooses lizard.  Spock has been poisoned by the lizard.\n\nYou Lose!\n\n");
+                    alert("Losses: " + losses);
+                }
+
+
+
+
+
+            } else {
+                alert("Please choose r, p, s, l or o");
+
+            }
+
+            var html =
+                "<h1>Rock - Paper - Scissors - Lizard - Sp<u>o</u>ck</h1>" +
+                "<p>Press r, p, s, l or o to play a hand against your opponent.</p>" +
+                "<p>Wins: " + wins + "</p>" +
+                "<p>Losses: " + losses + "</p>" +
+                "<p>Draws: " + draws + "</p>";
+
+            document.querySelector('#game').innerHTML = html;
+
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+    <div id="game">
+        
+        
+        <p>Press R, P, S, L or O to Begin</p>
+        <ul>
+            <li>R - Rock</li>
+            <li>P - Paper</li>
+            <li>S - Scissors</li>
+            <li>L - Lizard</li>
+            <li>O - Sp<strong>o</strong>ck</li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
