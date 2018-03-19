@@ -43,7 +43,7 @@ body{
     text-align: center;
     letter-spacing: 1px;
     margin: -1px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
     box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
 
@@ -113,7 +113,7 @@ aside{
     border-color: #ddd;
     border-width: 1px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
     
 
@@ -146,12 +146,12 @@ section{
     border-style: solid;
     border-color: #ddd;
     border-width: 1px;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 5px 5px 2.5px #aaaaaa;
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 3px;
 }
 
 
@@ -264,7 +264,7 @@ input {
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 3px;
     font-size: 14px;
     resize: vertical;
     overflow: auto;
@@ -303,7 +303,7 @@ input:focus {
 /* Portfolio */
 
 .h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
@@ -433,7 +433,7 @@ body{
     text-align: center;
     letter-spacing: 1px;
     margin: -1px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
     box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
 
@@ -503,7 +503,7 @@ aside{
     border-color: #ddd;
     border-width: 1px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
     
 
@@ -536,12 +536,12 @@ section{
     border-style: solid;
     border-color: #ddd;
     border-width: 1px;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 5px 5px 2.5px #aaaaaa;
 }
 
 img {
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 
@@ -640,7 +640,7 @@ footer {
 /* Portfolio */
 
 .h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
@@ -761,7 +761,7 @@ h3 {
     text-align: center;
     letter-spacing: 1px;
     margin: -1px;
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
     background: linear-gradient(to #63A8A4,rgb(75, 170, 165), #63A8A4);
     box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
 
@@ -831,7 +831,7 @@ section{
     border-style: solid;
     border-color: #ddd;
     border-width: 1px;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 5px 5px 2.5px #aaaaaa;
 }
 
@@ -849,7 +849,7 @@ aside{
     border-color: #ddd;
     border-width: 1px;
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 5px;
     box-shadow: 2.5px 2.5px 0.75px #aaaaaa;
     
 
@@ -877,7 +877,7 @@ hr {
 
 
 img {
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
 
@@ -1030,7 +1030,7 @@ input:focus {
 /* Portfolio */
 
 .h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
@@ -1266,7 +1266,7 @@ h3 {
         border-color: #ddd;
         border-width: 1px;
         padding: 10px;
-        border-radius: 15px;
+        border-radius: 5px;
         box-shadow: 1.5px 1.5px 0.75px #aaaaaa;
         
     
@@ -1300,12 +1300,12 @@ h3 {
         border-style: solid;
         border-color: #ddd;
         border-width: 1px;
-        border-radius: 15px;
+        border-radius: 5px;
         box-shadow: 1.5px 1.5px 1.5px #aaaaaa;
     }
     
     img {
-        border-radius: 8px;
+        border-radius: 4px;
     }
     
     
@@ -1457,7 +1457,7 @@ h3 {
     /* Portfolio */
     
     .h3container1, .h3container2, .h3container3, .h3container4, .h3container5, .h3container6 {
-        border-radius: 15px;
+        border-radius: 5px;
     }
     
     .h3container1:hover, .h3container2:hover, .h3container3:hover, .h3container4:hover, .h3container5:hover, .h3container6:hover {
